@@ -25,6 +25,7 @@ try:
 except:
    print('There is an error with the image width')
    base_width = 500
+   print('Width: 500 (by default)')
 width_percent = (base_width / float(image.size[0]))
 hsize = int((float(image.size[1]) * float(width_percent)))
 image = image.resize((base_width, hsize))
