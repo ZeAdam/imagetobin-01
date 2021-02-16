@@ -20,3 +20,4 @@ Image file name: image.jpg
 Width: 500
 You can now find the output in "out.bin" folder.
 ```
+**Note**: no need to have `img2bin.py` in order to use `img2bin_tk.py`.
