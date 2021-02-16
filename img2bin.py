@@ -44,7 +44,7 @@ for pixel in image.getdata():
     if len(countint)%base_width==0:
        count = count+"""
 """
-f=open('out.bin', 'w')
+f=open('out_bin.txt', 'w')
 f.write(count)
 #image.save("ok.jpg")
 f.close()
