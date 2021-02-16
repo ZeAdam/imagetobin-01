@@ -60,7 +60,7 @@ class imgtobin:
             if len(countint)%base_width==0:
                 count = count+"""
 """
-        f=open('binary.txt', 'w')
+        f=open('out_bin.txt', 'w')
         f.write(count)
         #image.save("ok.jpg")
         f.close()
@@ -69,7 +69,7 @@ class imgtobin:
         print("Task succeeded!")
         self.openbutton = ttk.Button(text = "Open the final binary file", command = self.open())
     def open(self) :
-        os.system("notepad.exe binary.txt")
+        os.system("notepad.exe out_bin.txt")
             
 
 
