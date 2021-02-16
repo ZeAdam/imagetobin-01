@@ -1,5 +1,5 @@
 # imagetobin-01
-[![img-to-bin.png](https://i.postimg.cc/gJzxZ1WY/img-to-bin.png)](https://postimg.cc/hJY4Fyvw)
+![f.png](https://i.postimg.cc/6q0Pj22s/f.png)
 A little Python program transforming an image into a 0 and 1 text file. 
 
 ## Requirements
